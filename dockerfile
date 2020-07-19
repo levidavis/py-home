@@ -1,6 +1,7 @@
 FROM python:3.6-alpine
 
 RUN apk add --update build-base nodejs yarn npm
+RUN apk add libffi-dev
 RUN npm install --global webpack webpack-cli
 
 RUN mkdir /install/
