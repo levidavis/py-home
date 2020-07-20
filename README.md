@@ -4,7 +4,9 @@ This is a fork of [Cameron Gray's](https://github.com/camerongray1515/) [Home-Au
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+> Requirements
+- Docker installed, [docs are here](https://docs.docker.com/get-docker/)
+-
 
 ### Basic install
 
