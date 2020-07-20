@@ -7,14 +7,11 @@ This is a fork of [Cameron Gray's](https://github.com/camerongray1515/) [Home-Au
 ### Requirements
 - Ubuntu 18.04 or above
 - Docker installed, [docs are here](https://docs.docker.com/get-docker/)
-- Baisc Knowledge of:
-       - Pyhton
-       - Linux
-       - Docker
+- Baisc Knowledge of: Docker, Linux and Python
 
 ### Basic install
 
-Commands may differ between machines, im using Ubuntu Server 18.04 LTS
+Commands may differ between machines, im using Ubuntu Server 18.04 LTS.
 
 First we need to download the files and go into the directory
 
@@ -39,26 +36,32 @@ now we need to get the docker containter running in the background using this co
 ```
 sudo dokcer-compose up -d
 ```
+lets visit the hub now!
+```
+Goto: http://{IP ADDRESS}:8080/
+```
+Done! , What's next? i would suggest looking at the [Modules Section](README.md#-Modules)
 
-Done!
+### Customized Install
+Commands may differ between machines, im using Ubuntu Server 18.04 LTS.
 
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+First we need to download the files and go into the directory
 
 ```
-Give the example
+git clone https://github.com/levidavis/py-home.git
+cd py-home/
 ```
+Now lets customize!
 
-And repeat
-
+##### Change Web Port
+All we need to do is change the docker-compose file!
 ```
-until finished
+nano docker-compose.yml
 ```
-
-End with an example of getting some data out of the system or using it for a little demo
+and go down line 20 and edit this (Default port is 8080):
+```
+ -{PORT YOU WANT}:80
+```
 
 ## Running the tests
 
