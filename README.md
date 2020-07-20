@@ -8,9 +8,9 @@ This is a fork of [Cameron Gray's](https://github.com/camerongray1515/) [Home-Au
 - Ubuntu 18.04 or above
 - Docker installed, [docs are here](https://docs.docker.com/get-docker/)
 - Baisc Knowledge of:
- - Pyhton
- - Linux
- - Docker
+       - Pyhton
+       - Linux
+       - Docker
 
 ### Basic install
 
