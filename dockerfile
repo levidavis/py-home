@@ -36,7 +36,7 @@ COPY src /install/hub
 RUN pip install /install/hub
 
 COPY src /install/modules
-#RUN pip install /install/modules/*
+RUN pip install /install/modules/*
 
 # PYTHONUNBUFFERED ensures that log lines from the application are
 # output immediately when using docker logs or docker attach rather than
