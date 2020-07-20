@@ -4,13 +4,17 @@ This is a fork of [Cameron Gray's](https://github.com/camerongray1515/) [Home-Au
 
 ## Getting Started
 
-> Requirements
+### Requirements
+- Ubuntu 18.04 or above
 - Docker installed, [docs are here](https://docs.docker.com/get-docker/)
--
+- Baisc Knowledge of:
+ - Pyhton
+ - Linux
+ - Docker
 
-#### Basic install
+### Basic install
 
-Commands may differ between machines, im using Ubuntu Server 16.04 LTS
+Commands may differ between machines, im using Ubuntu Server 18.04 LTS
 
 First we need to download the files and go into the directory
 
