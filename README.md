@@ -8,7 +8,7 @@ This is a fork of [Cameron Gray's](https://github.com/camerongray1515/) [Home-Au
 - Docker installed, [docs are here](https://docs.docker.com/get-docker/)
 -
 
-### Basic install
+#### Basic install
 
 Commands may differ between machines, im using Ubuntu Server 16.04 LTS
 
